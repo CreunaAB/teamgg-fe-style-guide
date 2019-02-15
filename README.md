@@ -8,4 +8,4 @@ We aim at producing something that will be able to grow and scale, while keeping
 
 * [Formatting](css/formatting.md)
 * [Naming](css/naming.md)
-* [Variables](css/variables)
+* [Variables](css/variables.md)
