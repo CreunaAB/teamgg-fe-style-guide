@@ -6,6 +6,6 @@ We aim at producing something that will be able to grow and scale, while keeping
 
 ## CSS
 
-- [Formatting](css/formatting.md)
-- [Naming](css/naming.md)
-- [Variables](css/variables)
+* [Formatting](css/formatting.md)
+* [Naming](css/naming.md)
+* [Variables](css/variables)
