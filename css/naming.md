@@ -8,8 +8,7 @@ div {
 ```
 * Classes should be lowercase.
 * Hyphenate class selector names; avoid underscores and camelCase.
-* Name things clearly.
-* Write semantic, easily understandable class names.
+* Use meaningful names; use structural or purposeful names over presentational.
 ```
 // Bad
 // Avoid uppercase

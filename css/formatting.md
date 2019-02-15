@@ -8,7 +8,9 @@ At Creuna we aim for our code to be readable, modular and easily maintained. To 
 
 * Always use the minimum specificty required to achieve the desired style. 
 * Avoid nesting selectors as much as possible. Modifiers, pseudo-states/elements & media queries are the exceptions.
-* Minimize the use of ID's and avoid !important.
+* Don't use ID's for styling.
+* Minimize the use of !important. This should be reserved for helper classes and print css.
+* Don't use @extend as this can have unexpected side effects.
 ```md
 // Bad
 .block {
