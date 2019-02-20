@@ -16,8 +16,6 @@ const value = 'hello';
 ### Spacing
 
 * Use soft-tabs with four space indent.
-* Put spaces between all values (`const x = 1 + 1` not `const x = 1+1`)
-
 
 ### Strings
 * Prefer template literals over string concatenation.
