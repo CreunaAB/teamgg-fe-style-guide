@@ -12,4 +12,5 @@ We aim at producing something that will be able to grow and scale, while keeping
 
 ## Javascript
 
+* [General](js/general.md)
 * [Dependencies](js/dependencies.md)
