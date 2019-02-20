@@ -13,6 +13,12 @@ const value = "hello";
 const value = 'hello';
 ```
 
+### Spacing
+
+* Use soft-tabs with four space indent.
+* Put spaces between all values (`const x = 1 + 1` not `const x = 1+1`)
+
+
 ### Strings
 * Prefer template literals over string concatenation.
 ```
@@ -46,6 +52,19 @@ new (Function.prototype.bind.apply(Date, [null, 2016, 8, 5]));
 new Date(...[2016, 8, 5]);
 ```
 
+* Use arrow functions for all anonymous functions (eg a inline callback).
+```
+// Bad
+[1, 2, 3].forEach(function(x) {
+    return x + 1;
+});
+
+// Good
+[1, 2, 3].forEach(() => {
+    return x + 1;
+});
+
+```
 ### References
 
 * Use `const` for all of your references. Avoid using `var`. 
