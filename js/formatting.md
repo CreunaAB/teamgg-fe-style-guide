@@ -19,7 +19,7 @@ if (isValid) {
     return true;
 }
 ```
-* Use semiccolons. Always. (https://hackernoon.com/an-open-letter-to-javascript-leaders-regarding-no-semicolons-82cec422d67d)
+* Use semiccolons. (https://hackernoon.com/an-open-letter-to-javascript-leaders-regarding-no-semicolons-82cec422d67d)
 * Don't use leading commas
 ```
 // Avoid
