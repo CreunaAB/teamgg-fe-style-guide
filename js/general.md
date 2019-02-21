@@ -4,7 +4,7 @@
 * Strive for readability and maintainability over writing less code. 
 
 ### Formatting
-* Use single quotes for values, not double quotes. This is for consistency across the codebase. 
+* Use single quotes for values, not double quotes. 
 ```
 // Bad
 const value = "hello";
@@ -12,14 +12,72 @@ const value = "hello";
 // Good
 const value = 'hello';
 ```
+* Use braces with all multi-line blocks.
+```
+// Bad
+if (isValid)
+    return true;
+
+// Good
+if (isValid) {
+    return true;
+}
+```
+* Use semiccolons. Always. (https://hackernoon.com/an-open-letter-to-javascript-leaders-regarding-no-semicolons-82cec422d67d)
+* Don't use leading commas
+const list = [
+    one
+   ,two
+   ,three
+]
+
+const list = [
+    one,
+    two,
+    three
+]
 
 ### Spacing
 
 * Use soft-tabs with four space indent.
+* Put one space before the leading brace.
+```
+// Bad
+function foo(){
+
+}
+
+// Good
+function foo() {
+
+}
+```
+* Put one space before opening parenthesis in control statements (`if`, `for` etc)
+```
+// Bad
+if(isValid) {
+    return true;
+}
+ 
+// Good
+if (isValid) {
+    return true;
+}
+```
+* Separate operators with spaces.
+```
+// Bad
+const x=y+10;
+
+
+// Good
+const x = y + 10;
+```
 
 ### References
 
 * Use `const` for all of your references. Avoid using `var`. 
+* Don't create global variables.
 ```
 // Bad
 var a = 1;
@@ -158,3 +216,62 @@ class John extends Person {
 
 ### Imports
 * Always use modules (`import`/`export`) over a non-standard module system, such as `require`. 
+* In modules with a single export, prefer default export over named export.
+* Put all `imports` above non-import statements. 
+```
+// Bad
+import foo from './foo';
+foo.init();
+
+import bar from './bar';
+
+// Good
+import foo from './foo';
+import bar from './bar';
+
+foo.init();
+```
+* Multiline imports should be indented just like multiline array and object literals.
+```
+// Bad
+import { classOne, classTwo, classThree, classFour }
+
+// Good
+import {
+    classOne, 
+    classTwo, 
+    classThree, 
+    classFour
+}
+```
+
+### Comparison Operators & Equality
+* Use `===` and `!==` over `==` and `!=`.
+* Use shortcuts for booleans, but explicit comparisons for strings and numbers.
+```
+// Bad
+if (isValid === true) {...}
+
+// Good
+if (isValid) {...}
+
+// Bad
+if (name) {...}
+
+// Good
+if (name !== '') {...}
+
+// Bad 
+if (list.length) {...}
+
+// Good
+if (list.length > 0) {...}
+```
+* When mixing operators, enclose them in parentheses.
+```
+// Bad
+const foo = a && b < 0 || c > 0;
+
+// Good
+const foo = (a && b < 0) || c > 0; 
+```
