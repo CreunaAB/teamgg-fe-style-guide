@@ -128,3 +128,33 @@ class Person {
     }
 }
 ```
+
+* Classes have a default constructor if one is not specified. An empty constructor function or one that just delegates to a parent class is unnecessary. 
+```
+// Bad
+class Person {
+  constructor() {}
+
+  getName() {
+    return this.name;
+  }
+}
+
+// Also bad
+class John extends Person {
+  constructor(...args) {
+    super(...args);
+  }
+}
+
+// Good
+class John extends Person {
+  constructor(...args) {
+    super(...args);
+    this.name = 'Rey';
+  }
+}
+```
+
+### Imports
+* Always use modules (`import`/`export`) over a non-standard module system, such as `require`. 
