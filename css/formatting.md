@@ -12,7 +12,7 @@ At Creuna we aim for our code to be readable, modular and easily maintained. To 
 * Minimize the use of !important. This should be reserved for helper classes and print css.
 * Don't use @extend as this can have unexpected side effects.
 ```md
-// Bad
+// Avoid
 .block {
     display: block;
 
@@ -25,7 +25,7 @@ At Creuna we aim for our code to be readable, modular and easily maintained. To 
     }
 }
 
-// Good
+// OK
 .block {
     display: block;
 }
@@ -52,11 +52,11 @@ At Creuna we aim for our code to be readable, modular and easily maintained. To 
 * To close a selector block, put an unindented closing curly brace on a separate line.
 * Each declaration should appear on its own line for more accurate error reporting.
 ```
-// Bad
+// Avoid
 .rule{
     margin:10px;text-align:center;}
     
-// Good
+// OK
 .rule {
     margin: 10px;
     text-align: center;
@@ -80,12 +80,12 @@ selector {
 ```
 Spaces should separate values and operators in Sass expressions
 ```
-// Bad
+// Avoid
 selector {
   font-size: ($font-size+2em);
   font-size: ($font-size +2em);
 }
-// Good
+// OK
 selector {
   font-size: ($font-size + 2em);
 }
@@ -106,7 +106,7 @@ font-family: 'Lucida Grande', 'Helvetica', sans-serif;
     * Nested elements
     * Nested classes
 ```
-// Good
+// OK
 .module {
     @media (max-width: $s) { ... }
 

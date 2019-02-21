@@ -10,7 +10,7 @@ div {
 * Hyphenate class selector names; avoid underscores and camelCase.
 * Use meaningful names; use structural or purposeful names over presentational.
 ```
-// Bad
+// Avoid
 // Avoid uppercase
 .ClassName { }
 
@@ -22,22 +22,22 @@ div {
 ```
 * Avoid presentation- or location-specific words in names, as this will cause problems when you need to change the color, width, or feature later.
 ```
-// Bad
+// Avoid
 .blue
 .text-gray
 .100width-box
 
-// Good
+// OK
 .warning
 .primary
 .lg-box
 ```
 * Don’t abbreviate unless it’s a well-known abbreviation.
 ```
-// Bad
+// Avoid
 .bm-rd
 
-// Good
+// OK
 .block--lg
 ```
 * Name CSS components and modules with singular nouns.
