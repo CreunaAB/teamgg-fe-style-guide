@@ -18,3 +18,8 @@ Accessibility...
 
 * [General](js/general.md)
 * [Dependencies](js/dependencies.md)
+* [Formatting](js/formatting.md)
+* [Naming](js/naming.md)
+* [Functions](js/functions.md)
+* [Classes & Constructors](js/classes-constructors.md)
+* [Comparison & Equality](js/comparison-equality.md)
