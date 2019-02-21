@@ -1,4 +1,4 @@
-# Front End Style Guide for Team GG
+# Front End Style Guide for Chalmers intraweb
 
 This Frontend Style Guide contains best practices and basic front end rules to apply when working on Chalmers intraweb. Rules are created to ensure cohesion in the code produced, to ease maintainability and give a common and known structure to work on.
 
