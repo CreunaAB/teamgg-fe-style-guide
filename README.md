@@ -4,9 +4,9 @@ This Front End Style Guide contains best practices and basic front end rules to 
 
 We aim at producing something that will be able to grow and scale, while keeping a strong focus on readability. If you're editing code, take a few minutes to look at the code around you and determine its style. 
 
-Browser support...
+Browser support info here...
 
-Accessibility...
+Accessibility info here...
 
 ## CSS
 
@@ -23,3 +23,12 @@ Accessibility...
 * [Functions](js/functions.md)
 * [Classes & Constructors](js/classes-constructors.md)
 * [Comparison & Equality](js/comparison-equality.md)
+
+## HTML
+
+* [General](html/general.md)
+* [Formatting](html/formatting.md)
+
+## Fractal
+
+* Link to Fractal readme here...

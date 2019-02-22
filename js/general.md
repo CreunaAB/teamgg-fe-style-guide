@@ -3,43 +3,6 @@
 * Use vanilla Javascript whenever possible. Avoid using frameworks such as jQuery.
 * Strive for readability and maintainability over writing less code. 
 
-### Spacing
-
-* Use soft-tabs with four space indent.
-* Put one space before the leading brace.
-```
-// Avoid
-function foo(){
-
-}
-
-// OK
-function foo() {
-
-}
-```
-* Put one space before opening parenthesis in control statements (`if`, `for` etc)
-```
-// Avoid
-if(isValid) {
-    return true;
-}
- 
-// OK
-if (isValid) {
-    return true;
-}
-```
-* Separate operators with spaces.
-```
-// Avoid
-const x=y+10;
-
-
-// OK
-const x = y + 10;
-```
-
 ### References
 
 * Use `const` for all of your references. Avoid using `var`. 
