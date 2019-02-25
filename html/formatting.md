@@ -26,8 +26,16 @@
 // OK
 <a href="#" class="link">HOME</a>
 ```
-* Use optional open/close tags.
+* Always close optional tags.
 ```
-<h1>Welcome
+// Avoid
+<tr>
+    <td> One
+    <td> Two
 
+// OK
+<tr>
+    <td>One</td>
+    <td>Two</td>
+</tr>
 ```
