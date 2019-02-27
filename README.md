@@ -8,27 +8,27 @@ We aim at producing something that will be able to grow and scale, while keeping
 
 This Front End library is built to support the latest three _major versions_ of the following browsers:
 
-**Windows**
+**Windows**  
 Firefox standard release  
 Firefox Extended Support release  
 IE 11 Senaste release  
 Edge  
 Chrome  
  
-**MacOS**
+**MacOS**  
 Safari  
 Chrome  
 Firefox standard release   
  
-**Linux CDA**
+**Linux CDA**  
 Firefox Extended Support release   
 Chrome  
  
-**Android (v 6-9)**
+**Android (v 6-9)**  
 Chrome  
 Samsung Internet Browser  
  
-**iOS**
+**iOS**  
 Safari  
 Chrome  
 
